@@ -1,5 +1,5 @@
 {
-  "name": "atv1_preparacaoambiente",
+  "name": "atv02",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Davi Santana",
-  "license": "ISC",
-  "dependencies": {
-    "atv1_preparacaoambiente": "file:"
-  }
+  "license": "ISC"
 }
