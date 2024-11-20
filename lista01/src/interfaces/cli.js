@@ -43,6 +43,7 @@ function iniciarCLI() {
           gerenciador.contatos,
           nomeBuscar
         );
+        console.clear()
         console.log("\nResultados da Busca:");
         if (resultados.length === 0) {
           console.log(chalk.red("Nenhum contato encontrado."));
@@ -58,6 +59,7 @@ function iniciarCLI() {
         console.log(chalk.blue("Saindo do sistema..."));
         break;
       default:
+        console.clear()
         console.log(chalk.red("Opção inválida. Tente novamente."));
     }
   }
